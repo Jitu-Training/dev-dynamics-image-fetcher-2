@@ -98,3 +98,55 @@ body{
   color: #05a081;
   font-weight: bold;
 }
+.aboutnav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left:20px;
+}
+.about .home{
+text-decoration: none;
+}
+
+.aboutpar{
+  position: relative;
+}
+.aboutmain{
+  position: absolute;
+  margin: auto;
+  width: 100vw;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;  
+}
+.aboutmain .about{
+  width: 50%;
+  margin-right: 10px;
+  background-color: #05a081;
+  border-radius: 10px;
+  padding: 10px;
+  margin:auto;
+
+}
+
+.aboutmain .about .title{
+  font-size: 2rem;
+  margin: 10px auto;
+}
+
+.aboutmain .content{
+  width: 50%;
+  border-radius: 10px;
+  background-color: #05a081;
+  padding: 10px;
+}
+.aboutmain .content ol li{
+  list-style: none;
+  margin: 10px auto;
+}
+.aboutmain .content h2 ol li{
+  margin: 10px auto;  
+}
